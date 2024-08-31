@@ -31,11 +31,17 @@ max_score: float = 0.0
 mean_score: float = 0.0
 stdev_score: float = 0.0
 
+other_min: float = 0.0
+other_max: float = 0.0
+other_mean: float = 0.0
+other_stdev: float = 0.0
+
 #List of strings 
 skills_offered: list = ["Data Analytics", "Machine Learning", "Business Intelligence"]
 
 #List of floats 
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+other_list_of_scores: list = [10.2, 20.3, 15.5, 5.4, 32.8, 25.6, 20.2]
 
 #####################################
 # Calculate min, max, mean, and stdev
@@ -43,8 +49,13 @@ client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 
 min_score = min(client_satisfaction_scores)
 max_score = max(client_satisfaction_scores)
-min_score = statistics.mean(client_satisfaction_scores)
-min_score = statistics.stdev(client_satisfaction_scores)
+mean_score = statistics.mean(client_satisfaction_scores)
+stdev_score = statistics.stdev(client_satisfaction_scores)
+
+other_min = min(other_list_of_scores)
+other_max = max(other_list_of_scores)
+other_mean = statistics.mean(other_list_of_scores)
+other_stdev = statistics.stdev(other_list_of_scores)
 
 #####################################
 # Declare a global variable named byline
