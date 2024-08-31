@@ -32,10 +32,10 @@ byline: str = f"""
 -------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 -------------------------------------------------------
-Has International Clients:   (has_international_clients)
-Years of Operation:          (years_in_operation)
-Skills Offered:              (skills_offered)
-Client Satisfaction Scores:  (client_satisfaction_scores)
+Has International Clients:   {has_international_clients}
+Years of Operation:          {years_in_operation}
+Skills Offered:              {skills_offered}
+Client Satisfaction Scores:  {client_satisfaction_scores}
 """
 
 #####################################
