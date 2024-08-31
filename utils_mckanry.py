@@ -1,4 +1,4 @@
-''' ITERATION 1
+''' ITERATION 2
 
 Module: Insights Professional Analytics - Reusable Module for My Data Analytics Projects
 
@@ -31,6 +31,13 @@ I'll test it in an online interpreter to ensure this version runs correctly befo
 byline: str = 'Insights Professional Analytics: Delivering Professional Projections and Insights'
 
 #####################################
+# Declare get_byline function to return byline text.
+#####################################
+def get_byline() -> str:
+   '''Returns byline for analysys'''
+   return byline
+
+#####################################
 # Define a main() function for this module.
 #####################################
 
@@ -45,7 +52,7 @@ byline: str = 'Insights Professional Analytics: Delivering Professional Projecti
 
 def main() -> None:
     '''Print the byline to the console when this function is called.'''
-    print(byline)
+    print(get_byline())
 
 #####################################
 # Conditional Execution - Only call main() when executing this module as a script.
