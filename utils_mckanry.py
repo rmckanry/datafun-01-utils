@@ -1,12 +1,12 @@
-''' ITERATION 4
+''' ITERATION 5
 
 Module: Insights Professional Analytics - Reusable Module for My Data Analytics Projects
 
 This module provides a simple, reusable foundation for my analytics projects.
 
 Process:
-In this fourth iteration, I will declare additional variables and import the statics function.
-It will use min(), max(), mean(), and the standard deviation functions.
+In this fifth iteration, I will present the min, max, mean, and standard deviation for both the company and my own variables.
+I will update the byline code to display these values
 '''
 
 #####################################
@@ -69,6 +69,19 @@ Has International Clients:   {has_international_clients}
 Years of Operation:          {years_in_operation}
 Skills Offered:              {skills_offered}
 Client Satisfaction Scores:  {client_satisfaction_scores}
+Other List of Scores:        {other_list_of_scores}
+
+Display Company Min, Max, Mean, and Standard Deviation:
+Client Score Minimum:        {min_score}
+Client Score Maximum:        {max_score}
+Client Score Mean:           {mean_score}
+Client Standard Deviation:   {stdev_score}
+
+Display Additional Min, Max, Mean, and Standard Deviation:
+Other Score Minimum:         {other_min}
+Other Score Maximum          {other_max}
+Other Score Mean:            {other_mean}
+Other Standard Deviation:    {other_stdev}
 """
 
 #####################################
