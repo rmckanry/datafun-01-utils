@@ -41,10 +41,10 @@ client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
 # Calculate min, max, mean, and stdev
 #####################################
 
-min_score = min(client_satisfation_scores)
-max_score = max(client_satisfation_scores)
-min_score = statistics.mean(client_satisfation_scores)
-min_score = statistics.stdev(client_satisfation_scores)
+min_score = min(client_satisfaction_scores)
+max_score = max(client_satisfaction_scores)
+min_score = statistics.mean(client_satisfaction_scores)
+min_score = statistics.stdev(client_satisfaction_scores)
 
 #####################################
 # Declare a global variable named byline
