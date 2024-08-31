@@ -1,28 +1,50 @@
-''' ITERATION 3
+''' ITERATION 4
 
 Module: Insights Professional Analytics - Reusable Module for My Data Analytics Projects
 
 This module provides a simple, reusable foundation for my analytics projects.
 
 Process:
-In this third iteration, I declared variables to show skills with different data types.
+In this fourth iteration, I will declare additional variables and import the statics function.
+It will use min(), max(), mean(), and the standard deviation functions.
 '''
+
+#####################################
+# Import Statistics module
+#####################################
+
+import statistics
 
 #####################################
 # Declare a global variable named byline.
 #####################################
 
-#Boolean variable to indicate if the company has international clients
+#Boolean variable
 has_international_clients: bool = True
 
-#Integer variable for the number of years in operation
+#Integer variable 
 years_in_operation: int = 10
 
-#List if strings representing the skills offered by the company
+#Float variables
+min_score: float = 0.0
+max_score: float = 0.0
+mean_score: float = 0.0
+stdev_score: float = 0.0
+
+#List of strings 
 skills_offered: list = ["Data Analytics", "Machine Learning", "Business Intelligence"]
 
-#List of floats representing individual client satisfaction scores
+#List of floats 
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+
+#####################################
+# Calculate min, max, mean, and stdev
+#####################################
+
+min_score = min(client_satisfation_scores)
+max_score = max(client_satisfation_scores)
+min_score = statistics.mean(client_satisfation_scores)
+min_score = statistics.stdev(client_satisfation_scores)
 
 #####################################
 # Declare a global variable named byline
